@@ -1,3 +1,4 @@
+#7
 import json
 with open("tak_7.json", "w", encoding="utf-8") as task_7_w, open("text_7.txt", encoding="utf-8") as task_7:
     proceeds = {line.split()[0]: int(line.split()[2]) - int(line.split()[3]) for line in task_7}
