@@ -1,4 +1,4 @@
-
+#2
 with open("text.txt", "r", encoding="utf-8" ) as f:
     f = f.readlines()
     for number, word in enumerate(f, 1):

@@ -1,3 +1,4 @@
+#5
 from random import randint
 
 with open("task_5.txt", "w+", encoding="utf-8") as task_5:
