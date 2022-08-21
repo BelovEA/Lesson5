@@ -1,3 +1,4 @@
+#6
 with open("text_6.txt", "r", encoding="utf-8") as text_6:
     my_dict = {}
     for line in text_6:
